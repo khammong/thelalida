@@ -497,7 +497,7 @@
 	
 	.headline p span {
 		padding: 0 10px;
-		background-color: #fff; 
+		background-color: #fff;
 	}
 	
 	
@@ -938,7 +938,7 @@
 	.parallax.full-screen .headline:after { right: 0; }
 	
 	.parallax.full-screen .headline h1 {
-		padding: 30px 40px 40px 40px;
+		padding: 30px 130px 40px 130px;
 		font-size: 72px;
 		line-height: 53px;
 	}
@@ -1467,3 +1467,13 @@
 	.testimonial a { color: #555; }
 	
 	.testimonial h5 span { color: #999; }
+
+	/* ///// VDO ///////*/
+	video {
+		object-fit: cover;
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+	  }
