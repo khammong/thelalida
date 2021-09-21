@@ -26,9 +26,9 @@
     <link rel="stylesheet" href="_layout/js/magnificpopup/magnific-popup.css">
     
     <!-- /// Google Fonts ////////  -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,300,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700">
     
     <!-- /// FontAwesome Icons 4.0.3 ////////  -->
 	<link rel="stylesheet" href="_layout/css/fontawesome/font-awesome.min.css">
@@ -39,31 +39,26 @@
     <!-- /// Cross-browser CSS3 animations ////////  -->
     <link rel="stylesheet" href="_layout/css/animate/animate.min.css">
 
-
     <!-- /// Modernizr ////////  -->
-    <script src="_layout/js/modernizr-2.6.2.min.js">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "firebase/app";
-    import { getAnalytics } from "firebase/analytics";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
+    <script src="_layout/js/modernizr-2.6.2.min.js"></script>
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-    apiKey: "AIzaSyAllbEFdIJlLBAjqIWBnydr9iL6I8ZZM3k",
-    authDomain: "thelalida-2ca8e.firebaseapp.com",
-    projectId: "thelalida-2ca8e",
-    storageBucket: "thelalida-2ca8e.appspot.com",
-    messagingSenderId: "733502437061",
-    appId: "1:733502437061:web:c08a007e10f251d885e2ac",
-    measurementId: "G-6LG5XC95WH"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-    </script>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.0.2/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.0.2/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 </head>
 <body>
 
